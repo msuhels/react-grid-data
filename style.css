@@ -1,0 +1,91 @@
+body {
+    background-color: #fafafa;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+    font-family: 'Roboto', Arial, Tahoma, sans-serif;
+    /*#eeeeee*/
+}
+
+a { color: #0ab; cursor: pointer; }
+a:hover {text-decoration: none}
+
+h1 {
+  font-weight: 300;
+  color: #737373;
+  letter-spacing: 1px;
+}
+
+th { font-weight: 400; letter-spacing: 1px; }
+td { font-weight: 200 }
+
+.strong {font-weight: bold}
+.hide {display: none}
+.alignRight { text-align: right }
+
+.demo {
+  width: 1124px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.demo textarea {
+  width: 710px;
+  height: 215px;
+  margin-top: 20px;
+  border: 0;
+  padding: 10px 20px 20px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  font-family: 'anonymous pro', 'courier', 'monospace'
+}
+thead tr th {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    vertical-align: bottom;       
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: left;
+    border-top: 0;
+    font-weight: 600;
+}
+
+.reactPivot-results {
+    font-size: 13px;
+    color: #555;
+}
+ tbody > tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+.reactPivot-results td{
+  padding: 15px!important;
+}
+td.alignCenter {    
+    padding-left: 21px!important;
+}
+
+.reactPivot select {
+    border-radius: 3px;
+}
+.reactPivot {
+    background: #fff!important;
+    min-height: 50px!important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2)!important;
+    position: relative!important;
+    margin-bottom: 30px!important;
+    -webkit-border-radius: 2px!important;
+    -moz-border-radius: 2px!important;
+    -ms-border-radius: 2px!important;
+    border-radius: 2px!important;
+}
+
+.demoCss {
+    padding: 1px 30px 1px 30px;
+    background-color: #eeeeee;
+}
+
+tbody tr td{
+      /*font-size: 1rem!important;*/
+}
